@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:background="@drawable/bg1" >
+  
+  	<TextView android:text="短信内容" android:id="@+id/tvSMS"
+		android:textSize="15px" android:layout_width="fill_parent"
+		android:gravity="center" android:layout_height="wrap_content">
+	</TextView>
+
+	<TextView android:text="" android:layout_width="fill_parent"
+		android:layout_height="2px" android:background="#FFFFFF">
+	</TextView>
+	
+	<RelativeLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+	 <EditText
+	  android:id="@+id/editSMS"
+	  android:layout_width ="fill_parent"
+	  android:layout_height ="wrap_content"
+	 />
+
+	</RelativeLayout>
+	
+	
+
+	<RelativeLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		<GridView android:id="@+id/gv" android:layout_height="50dip"
+			android:layout_width="fill_parent" android:layout_alignParentBottom="true">
+		</GridView>
+
+	
+</RelativeLayout>
+
+</LinearLayout>

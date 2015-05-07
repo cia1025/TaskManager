@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/bg1">
+
+	<TextView android:text="@string/weekcycle"
+		android:id="@+id/tvOneTime" android:textSize="15px"
+		android:layout_width="fill_parent" android:gravity="center"
+		android:layout_height="wrap_content">
+	</TextView>
+
+	<TextView android:text="" android:layout_width="fill_parent"
+		android:layout_height="2px" android:background="#FFFFFF">
+	</TextView>
+
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<Button android:id="@+id/btSelectAll"
+			android:layout_width="wrap_content" android:layout_weight="1"
+			android:layout_height="40px" android:text="@string/selectAll">
+		</Button>
+		<Button android:id="@+id/btSelectNull"
+			android:layout_width="wrap_content" android:layout_weight="1"
+			android:layout_height="40px" android:text="@string/selectNull">
+		</Button>
+		<Button android:id="@+id/btReverseSelect" android:layout_width="40px"
+			android:layout_weight="1" android:layout_height="40px"
+			android:text="@string/reverseSelect">
+		</Button>
+
+	</LinearLayout>
+
+	<RelativeLayout android:id="@+id/RelativeLayout00"
+		android:gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="@string/Sunday" 
+			android:id="@+id/Sunday"
+			android:textSize="20px"
+			android:layout_marginLeft="20px"
+			android:layout_marginTop="12px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</TextView>
+		<CheckBox 
+			android:id="@+id/cb00"
+			android:layout_width="30px"
+			android:layout_height="30px"
+			android:layout_marginTop="4px"
+			android:layout_marginLeft="280px">
+		</CheckBox>
+
+	</RelativeLayout>
+
+	<TextView android:text="" android:layout_width="fill_parent"
+		android:layout_height="2px" android:background="#FFFFFF">
+	</TextView>
+
+	<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_width="wrap_content"
+		android:gravity="center"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="@string/Monday" 
+			android:id="@+id/Monday"
+			android:textSize="20px"
+			android:layout_marginTop="12px"
+			android:layout_marginLeft="20px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</TextView>
+		<CheckBox  
+			android:id="@+id/cb01"
+			android:layout_width="30px"
+			android:layout_height="30px"
+			android:layout_marginTop="4px"
+			android:layout_marginLeft="280px">
+		</CheckBox>
+
+	</RelativeLayout>
+
+	<TextView android:text="" android:layout_width="fill_parent"
+		android:layout_height="2px" android:background="#FFFFFF">
+	</TextView>
+
+	<RelativeLayout android:id="@+id/RelativeLayout02"
+		android:gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="@string/Tuesday" 
+			android:id="@+id/Tuesday"
+			android:textSize="20px"
+			android:layout_marginTop="12px"
+			android:layout_marginLeft="20px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</TextView>
+		<CheckBox 
+			android:id="@+id/cb02"
+			android:layout_width="30px"
+			android:layout_height="30px"
+			android:layout_marginTop="4px"
+			android:layout_marginLeft="280px">
+		</CheckBox>
+
+	</RelativeLayout>
+
+	<TextView android:text="" android:layout_width="fill_parent"
+		android:layout_height="2px" android:background="#FFFFFF">
+	</TextView>
+
+	<RelativeLayout android:id="@+id/RelativeLayout03"
+		android:layout_width="wrap_content"
+		android:gravity="center"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="@string/Wednesday" 
+			android:id="@+id/Wednesday"
+			android:textSize="20px"
+			android:layout_marginTop="12px"
+			android:layout_marginLeft="20px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</TextView>
+		<CheckBox  
+			android:id="@+id/cb03"
+			android:layout_width="30px"
+			android:layout_height="30px"
+		    android:layout_marginTop="4px"
+			android:layout_marginLeft="280px">
+		</CheckBox>
+
+	</RelativeLayout>
+	
+	<TextView android:text="" android:layout_width="fill_parent"
+		android:layout_height="2px" android:background="#FFFFFF">
+	</TextView>
+	
+	<RelativeLayout android:id="@+id/RelativeLayout04"
+		android:gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="@string/Thursday" 
+			android:id="@+id/Thursday"
+			android:textSize="20px"
+			android:layout_marginTop="12px"
+			android:layout_marginLeft="20px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</TextView>
+		<CheckBox 
+			android:id="@+id/cb04"
+			android:layout_width="30px"
+			android:layout_height="30px"
+			android:layout_marginTop="4px"
+			android:layout_marginLeft="280px">
+		</CheckBox>
+
+	</RelativeLayout>
+
+	<TextView android:text="" android:layout_width="fill_parent"
+		android:layout_height="2px" android:background="#FFFFFF">
+	</TextView>
+
+	<RelativeLayout android:id="@+id/RelativeLayout05"
+		android:layout_width="wrap_content"
+		android:gravity="center_vertical"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="@string/Friday" 
+			android:id="@+id/Friday"
+			android:gravity="center_vertical"
+			android:textSize="20px"
+			android:layout_marginTop="12px"
+			android:layout_marginLeft="20px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</TextView>
+		<CheckBox  
+			android:id="@+id/cb05"
+			android:layout_width="30px"
+			android:layout_height="30px"
+			android:layout_marginTop="4px"
+			android:layout_marginLeft="280px">
+		</CheckBox>
+
+	</RelativeLayout>
+	
+	<TextView android:text="" android:layout_width="fill_parent"
+		android:layout_height="2px" android:background="#FFFFFF">
+	</TextView>
+	
+	<RelativeLayout android:id="@+id/RelativeLayout06"
+		android:gravity="center_vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="@string/Saturday" 
+			android:id="@+id/Saturday"
+			android:gravity="center_vertical"
+			android:textSize="20px"
+			android:layout_marginTop="12px"
+			android:layout_marginLeft="20px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</TextView>
+		<CheckBox 
+			android:id="@+id/cb06"
+			android:layout_width="30px"
+			android:layout_height="30px"
+			android:layout_marginTop="4px"
+			android:layout_marginLeft="280px">
+		</CheckBox>
+
+	</RelativeLayout>
+
+	<RelativeLayout android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<GridView android:id="@+id/gv" android:layout_height="50dip"
+			android:layout_width="fill_parent"
+			android:layout_alignParentBottom="true">
+		</GridView>
+	</RelativeLayout>
+
+</LinearLayout>

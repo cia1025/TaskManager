@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/bg1"
+  android:layout_height="wrap_content">
+  
+  <RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+   android:orientation="horizontal"
+  android:layout_height="wrap_content">
+  <EditText
+  android:id="@+id/hour_et" 
+  android:layout_width="80px"
+   android:layout_height="40px"
+   android:layout_marginLeft="60px"
+   android:layout_marginTop="5px"
+    />
+    <TextView
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_marginLeft="158px"
+   android:layout_marginTop="5px"
+   android:textSize="10pt"
+   android:text=":"
+    />
+    <EditText
+  android:id="@+id/minute_et" 
+  android:layout_width="80px"
+   android:layout_height="40px"
+   android:layout_toRightOf="@id/hour_et"
+   android:layout_marginLeft="40px"
+   android:layout_marginTop="5px"
+    />
+  </RelativeLayout>
+  
+  
+  
+   <TextView
+    android:layout_width="fill_parent" 
+	android:layout_height="1dp"
+	android:background="#FFFFFF"
+	/>
+   <TextView
+   android:id="@+id/tv_tskname_title" 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:textSize="25px"
+   android:text="@string/tv_tskname_title"
+    />
+    <TextView
+   android:id="@+id/tv_taskname" 
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:textSize="12px"
+   android:text="@string/tv_taskname"
+    />
+    <TextView
+    android:layout_width="fill_parent" 
+	android:layout_height="1dp"
+	android:background="#FFFFFF"
+	/>
+	
+	
+	
+	<TextView
+   android:id="@+id/tv_cycle" 
+  android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:textSize="25px"
+   android:text="@string/tv_cycle"
+    />
+    <TextView
+   android:id="@+id/tv_cyclestyle" 
+  android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:textSize="12px"
+   android:text="@string/tv_cyclestyle"
+    />
+    <TextView
+    android:layout_width="fill_parent" 
+	android:layout_height="1dp"
+	android:background="#FFFFFF"
+	/>
+ 
+ 
+ 
+ <TextView
+   android:id="@+id/tv_remind" 
+  android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:textSize="25px"
+   android:layout_marginTop="6px"
+   android:layout_marginBottom="6px"
+   android:text="@string/tv_remind"
+    />
+  <TextView
+    android:layout_width="fill_parent" 
+	android:layout_height="1dp"
+	android:background="#FFFFFF"
+	/>
+	
+	
+	
+	<TextView
+   android:id="@+id/tv_except" 
+  android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:textSize="25px"
+    android:layout_marginTop="6px"
+   android:layout_marginBottom="6px"
+   android:text="@string/tv_another"
+    />
+  <TextView
+    android:layout_width="fill_parent" 
+	android:layout_height="1dp"
+	android:background="#FFFFFF"
+	/>
+	
+	<TextView
+   android:id="@+id/tv_parameter" 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:textSize="12px"
+   android:text="@string/tv_parameter"
+   android:gravity="center"
+    />
+    
+  <TextView
+    android:layout_width="fill_parent" 
+	android:layout_height="1dp"
+	android:background="#FFFFFF"
+	/>
+	
+	
+	  <RelativeLayout 
+ android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+	<TextView
+   android:id="@+id/tv_switcher" 
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+    android:layout_marginTop="6px"
+   android:layout_marginBottom="6px"
+   android:textSize="25px"
+   android:text="@string/tv_switcher"
+    />
+    <ImageButton
+    android:id="@+id/detail_ib" 
+     android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_alignParentRight="true"
+    />
+    
+    </RelativeLayout>
+  <TextView
+    android:layout_width="fill_parent" 
+	android:layout_height="1dp"
+	android:background="#FFFFFF"
+	/>
+	
+	
+ 
+  <RelativeLayout 
+ android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<GridView android:id="@+id/gv"
+	android:layout_height="50dip" 
+	android:layout_width="fill_parent"
+	android:layout_alignParentBottom="true">
+</GridView>
+
+</RelativeLayout>
+  
+</LinearLayout>

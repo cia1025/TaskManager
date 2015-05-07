@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  
+  	<TextView 
+		  	android:id="@+id/Menu_itemtime" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="40px"  
+			android:layout_marginLeft = "5px"
+	/>
+	
+	<RelativeLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_toRightOf = "@id/Menu_itemtime"
+	  android:orientation="horizontal">
+	  
+	<TextView 
+			android:id="@+id/Menu_itemname" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="25px" 
+	/>
+	
+	<TextView 
+			android:id="@+id/Menu_itemloop" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_below = "@id/Menu_itemname"
+			android:textSize="15px" 
+	/>
+	
+	</RelativeLayout>
+	
+ </RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg1"
+	>
+	
+	<RadioGroup android:id="@+id/RadioGroup01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:text="@string/cyclestyle" 
+		android:id="@+id/TextView1"
+		android:textSize="7pt" 
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		</TextView>
+		<TextView 
+		android:layout_width="fill_parent"
+			android:layout_height="1dp" 
+			android:background="#FFFFFF" />
+
+		<RelativeLayout android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			
+			<TextView
+			 android:id="@+id/tv2" 
+			 android:text="@string/csonce"
+			android:layout_marginLeft="15px" 
+			android:textSize="25px"
+			android:layout_marginBottom="6px"
+		    android:layout_marginTop="6px"
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			</TextView>
+			<RadioButton 
+			android:id="@+id/rb2"
+			android:layout_alignParentRight="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			</RadioButton>
+		</RelativeLayout>
+		
+		<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		 android:background="#FFFFFF" />
+
+
+		<RelativeLayout 
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+			<TextView 
+			android:id="@+id/tv3"
+			 android:text="@string/csweek"
+			android:layout_marginLeft="15px"
+			 android:textSize="25px"
+			 android:layout_marginBottom="6px"
+		   android:layout_marginTop="6px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			</TextView>
+			
+			<RadioButton 
+			android:id="@+id/rb3"
+			android:layout_alignParentRight="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			</RadioButton>
+		</RelativeLayout>
+		
+		<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		 android:background="#FFFFFF" />
+
+
+		<RelativeLayout 
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView 
+		android:id="@+id/tv4" 
+		android:text="@string/csday"
+		android:layout_marginLeft="15px" 
+		android:textSize="25px"
+		android:layout_marginBottom="6px"
+		  android:layout_marginTop="6px"
+	  android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+			</TextView>
+			
+	<RadioButton android:id="@+id/rb4"
+		android:layout_alignParentRight="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</RadioButton>
+		</RelativeLayout>
+		<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		 android:background="#FFFFFF" />
+
+
+		<RelativeLayout
+		 android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<TextView 
+		android:id="@+id/tv5"
+		 android:text="@string/csminute"
+		android:layout_marginLeft="15px"
+		 android:textSize="25px"
+		 android:layout_marginBottom="6px"
+		  android:layout_marginTop="6px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		</TextView>
+		
+			<RadioButton android:id="@+id/rb5"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</RadioButton>
+		</RelativeLayout>
+		<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:background="#FFFFFF" />
+
+
+		<RelativeLayout 
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<GridView 
+		android:id="@+id/csgv" 
+		android:layout_height="50dip"
+		android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true">
+			</GridView>
+		</RelativeLayout>
+
+	</RadioGroup>
+</LinearLayout>
+

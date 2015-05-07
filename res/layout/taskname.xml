@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/bg1">
+	
+	<TextView android:text="@string/tv_tskname_title" android:id="@+id/tvOneTime"
+		android:textSize="15px" android:layout_width="fill_parent"
+		android:gravity="center" android:layout_height="wrap_content">
+	</TextView>
+
+	<TextView android:text="" android:layout_width="fill_parent"
+		android:layout_height="2px" android:background="#FFFFFF">
+	</TextView>
+
+	<EditText android:text="" android:id="@+id/etTaskname"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</EditText>
+		
+	<RelativeLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<GridView android:id="@+id/gv" android:layout_height="50dip"
+			android:layout_width="fill_parent" android:layout_alignParentBottom="true">
+		</GridView>
+	</RelativeLayout>
+			
+</LinearLayout>
