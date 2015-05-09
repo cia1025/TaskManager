@@ -17,7 +17,7 @@ public class AddNewTask extends ListActivity{
 
 	// 本软件提供的所有功能列表
 	private List<TaskEntity> tasklist;
-// zzzaa
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
